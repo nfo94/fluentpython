@@ -39,5 +39,12 @@ print(choice(deck))
 
 print(deck[:3])
 
-# "Because our __getitem__ delegates to [] operator of self._cards, our deck automatically
-# supports slicing". ???
+# I'm not understanding shit so I'll beg ChatGPT for knowledge.
+# special methods: "These methods are used to define behaviors for built-in Python
+# operations, such as arithmetic operations, comparison operations, and object creation
+# and deletion. By defining these special methods in your custom classes, you can make
+# your objects behave more like built-in Python objects and provide a more intuitive and
+# Pythonic interface for your users".
+
+# Then in the book: we don't call special methods, they are called by the Python
+# interpreter (CPython).
